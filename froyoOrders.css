@@ -1,0 +1,32 @@
+body {
+  background-color: lightskyblue;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  text-align: center;
+  margin: auto;
+  align-content: center;
+}
+
+.instructions {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  border: 2px solid black;
+  width: 50%;
+  margin: 0 10% 0 25%;
+  background-color: skyblue;
+}
+
+h4 {
+  text-decoration: underline;
+  font-size: large;
+}
+
+ol {
+  margin-right: 20%;
+  margin-left: 20%;
+  text-align: justify;
+}
+
+.instructions:hover {
+  background-color: white;
+}
